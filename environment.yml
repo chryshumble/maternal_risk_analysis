@@ -1,0 +1,14 @@
+name: maternal_health
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bokeh=3.4.3
+  - notebook
+  - numpy
+  - pandas
+  - python=3.11.5
+  - pip
+  - holoviews
+  - panel
+  - pathlib
