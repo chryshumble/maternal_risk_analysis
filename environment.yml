@@ -1,14 +1,12 @@
-name: maternal_health
+name: mathealth
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - bokeh=3.4.3
   - notebook
   - numpy
   - pandas
-  - python=3.11.5
-  - pip
-  - holoviews
+  - python=3.12
+  - hvplot
   - panel
-  - pathlib
+  - statsmodels
+  
